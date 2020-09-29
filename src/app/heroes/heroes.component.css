@@ -1,0 +1,86 @@
+/* HeroesComponent's private CSS styles */
+.heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.heroes li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.heroes li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+.heroes li.selected {
+  background-color: #CFD8DC;
+  color: white;
+}
+.heroes li.selected:hover {
+  background-color: #BBD8DC;
+  color: white;
+}
+.heroes li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.heroes .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color:#405061;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+.delete {
+  cursor: pointer;
+  background-color: #F00;
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  height: 25px;
+  z-index: 1000;
+}
+.delete:hover {
+  background-color: #FFF;
+  color: #F00;
+}
+.add-section label {
+  font-weight: bold;
+  font-size: 18px;
+}
+.add-section input {
+  height: 25px;
+}
+.add-section button {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3f525c;
+  padding: 5px;
+  width: 100px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.add-section button:hover {
+  cursor: pointer;
+  color: #3f525c;
+  background-color: #FFF;
+}

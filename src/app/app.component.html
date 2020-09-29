@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+<div class="navigation">
+    <nav>
+        <a [routerLinkActive]="['is-active']" routerLink="/dashboard">Dashboard</a>
+        <a [routerLinkActive]="['is-active']" routerLink="/heroes">Heroes</a>
+    </nav>
+</div>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
